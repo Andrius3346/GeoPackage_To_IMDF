@@ -186,7 +186,7 @@ gpkg_layers_config = {
         },
     },
     'opening': {
-        'geometry': 'String',
+        'geometry': 'LineString',
         'attributes': {
             'id': {'type': QVariant.String, 'notnull': True},
             'category': {'type': QVariant.String, 'notnull': True},
